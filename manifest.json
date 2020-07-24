@@ -1,13 +1,13 @@
 {
+  "manifest_version": 2,
   "name": "Facebook Group Scraper",
   "version": "0.0.1",
-  "manifest_version": 2,
   "description": "This extension is designed to gather the data from your facebook group and send it to a google sheet.",
   "homepage_url": "https://hammersportmarketing.com",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "icons/group.png",
+    "48": "icons/group.png",
+    "128": "icons/group.png"
   },
   "default_locale": "en",
   "background": {
@@ -18,9 +18,9 @@
   },
   "options_page": "src/options_custom/index.html",
   "browser_action": {
-    "default_icon": "icons/icon19.png",
-    "default_title": "browser action demo",
-    "default_popup": "src/browser_action/browser_action.html"
+    "default_icon": "icons/group.png",
+    "default_title": "Facebook Group Collector",
+    "default_popup": "src/page_action/popup.html"
   },
   "permissions": [
     "clipboardRead",
